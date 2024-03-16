@@ -1,0 +1,28 @@
+{
+  "name": "project-crypto-fam",
+  "version": "0.0.3",
+  "description": "Our new crypto project",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "google.com",
+  "repository": {
+    "url": "https://github.com/J-StarkS/project-crypto-fam"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "crypto",
+    "project"
+  ],
+  "author": "jstarks",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "9.0.1"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  }
+}
